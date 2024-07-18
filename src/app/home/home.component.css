@@ -1,0 +1,70 @@
+.hero-section {
+    display: flex;
+    height: 568px;
+    padding: 0px 198px;
+    align-items: center;
+}
+
+.take-quiz-btn {
+    cursor: pointer;
+    color: white;
+    background-color: #429bf5;
+    width: 108px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+
+.hero-section-image {
+    height: 100%;
+}
+
+.image-src {
+    height: 100%;
+    width: auto;
+}
+
+
+.quizzes-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 198px;
+}
+
+.quizzes-section-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quiz-cards {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .quizzes-section {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    
+    .quiz-cards {
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0px;
+        align-items: center;
+    }
+}

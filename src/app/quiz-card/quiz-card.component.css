@@ -1,0 +1,33 @@
+.quiz-card {
+    border: solid 2px grey; 
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+.image-src-2 {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.quiz-info-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-info-1, .quiz-info-2, .quiz-info-3 {
+    padding: 0px 18px;
+    display: flex;
+} 
+
+.start-btn {
+    display: flex;
+    margin: 12px;
+    height: 42px;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #429bf5;
+}
