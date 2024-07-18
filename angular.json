@@ -97,5 +97,12 @@
         }
       }
     }
-  }
+  },
+  "cli": {
+    "analytics": "99d37be6-11cb-4051-9b87-a45a95333635"
+  },
+  "styles": [
+    "src/styles.css",
+    "node_modules/bootstrap/dist/css/bootstrap.min.css"
+  ]
 }
